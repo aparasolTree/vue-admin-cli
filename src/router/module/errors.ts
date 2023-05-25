@@ -13,12 +13,6 @@ export default {
             meta: { menu: { title: "404页面" } },
         },
         {
-            name: "error.403",
-            path: "403",
-            component: () => import("@/views/errors/403.vue"),
-            meta: { menu: { title: "403页面" } },
-        },
-        {
             name: "error.500",
             path: "500",
             component: () => import("@/views/errors/500.vue"),

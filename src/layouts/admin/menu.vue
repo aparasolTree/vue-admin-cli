@@ -10,7 +10,7 @@ watch(route, () => menuService.setCurrentMenu(route), { immediate: true });
 
 <template>
     <div class="admin-menu" :class="{ close: menuService.close.value }">
-        <div class="menu w-[200px] bg-gray-800">
+        <div class="menu w-[200px]" style="background-color: #30336b">
             <div class="logo">
                 <icon-home theme="outline" size="18" fill="#dcdcdc" class="mr-2" />
                 <span class="text-md">后台管理脚手架</span>
@@ -58,11 +58,11 @@ watch(route, () => menuService.setCurrentMenu(route), { immediate: true });
     .menu {
         @apply h-full;
         .logo {
-            @apply text-gray-300 flex items-center p-4;
+            @apply text-stone-50 flex items-center p-4;
         }
         .container {
             dl {
-                @apply text-gray-300 text-sm relative p-4;
+                @apply text-stone-50 text-sm relative p-4;
 
                 dt {
                     @apply text-sm flex justify-between cursor-pointer items-center;
@@ -74,11 +74,13 @@ watch(route, () => menuService.setCurrentMenu(route), { immediate: true });
                     }
                 }
                 dd {
+                    div:hover {
+                        background-color: #535c68;
+                    }
                     div {
-                        @apply py-3 pl-4 my-2 text-white rounded-md cursor-pointer duration-300 hover:bg-violet-500
-				bg-gray-700;
+                        @apply py-3 pl-4 my-2 text-white rounded-md cursor-pointer duration-300 bg-gray-700;
                         &.active {
-                            @apply bg-violet-700;
+                            background-color: #130f40;
                         }
                     }
                 }

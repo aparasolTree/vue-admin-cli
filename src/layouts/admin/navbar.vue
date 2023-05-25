@@ -20,10 +20,10 @@ const fullScreen = () => {
                 <icon-indent-right
                     theme="outline"
                     size="20"
-                    fill="#06a17e"
+                    fill="#ff7979"
                     v-if="menuService.close.value"
                 />
-                <icon-indent-left theme="outline" size="20" fill="#06a17e" v-else />
+                <icon-indent-left theme="outline" size="20" fill="#eb4d4b" v-else />
             </div>
             <Breadcrumb class="hidden md:block" />
         </div>
