@@ -10,7 +10,6 @@ export default defineConfig(({ command, mode }: ConfigEnv) => {
     const env = parseEnv(loadEnv(mode, root));
 
     return {
-        base: "/vue-admin-cli/",
         plugins: [...setupPlugins(isBuild), visualizer()],
         resolve: {
             alias,

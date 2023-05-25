@@ -47,7 +47,7 @@ const cards = ref<ICard[]>([
 
 nextTick(() => {
     echarts.init(document.getElementById("echart1") as HTMLDivElement).setOption(echart1);
-    echarts.init(document.getElementById("echart2") as HTMLDivElement).setOption(echart1);
+    echarts.init(document.getElementById("echart2") as HTMLDivElement).setOption(echart2);
 });
 </script>
 

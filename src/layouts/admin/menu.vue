@@ -13,7 +13,6 @@ watch(route, () => menuService.setCurrentMenu(route), { immediate: true });
         <div class="menu w-[200px] bg-gray-800">
             <div class="logo">
                 <icon-home theme="outline" size="18" fill="#dcdcdc" class="mr-2" />
-                <!-- <i class="fas fa-robot text-fuchsia-300 mr-2 text-[25px]"></i> -->
                 <span class="text-md">后台管理脚手架</span>
             </div>
             <!-- 菜单 -->
