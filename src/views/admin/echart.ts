@@ -11,7 +11,7 @@ export const echart1 = {
         {
             name: "销量",
             type: "bar",
-            data: [5, 20, 36, 10, 10, 20],
+            data: [8, 20, 36, 10, 26, 20],
         },
     ],
 };

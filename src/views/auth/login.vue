@@ -49,7 +49,7 @@ const onSubmit = handleSubmit(async (values: any) => {
                             theme="outline"
                             size="24"
                             fill="#fff"
-                            class="p-1 text-white bg-green-600 rounded-full cursor-pointer fab fa-weixin"
+                            class="p-1 text-white bg-green-600 rounded-full cursor-pointer"
                         />
                     </div>
                 </div>
